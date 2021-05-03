@@ -1,0 +1,109 @@
+h1{
+    background-color: rgb(41, 38, 38);
+    background-blend-mode: luminosity;
+    background-image: url('https://images.unsplash.com/photo-1590552515252-3a5a1bce7bed?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8d2VhdGhlcnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80');
+}
+body{
+ color:rgb(255, 255, 255);
+ max-width:1120;
+ border-radius: 100px;
+ width:50%;
+ margin: 100px;
+ margin-top: 50px;
+ background: #c9c9c9;
+ padding:0 16px;
+
+ display:flex;
+ flex-direction: column;
+ min-height:100vh;
+ margin:100px;
+ background:#222;
+ font-family:sans-serif;
+
+ background-image:url('https://images.unsplash.com/photo-1590552515252-3a5a1bce7bed?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8d2VhdGhlcnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80')
+}
+.main-content{
+    flex-grow:1;
+}
+footer{
+    color: rgb(0, 0, 0);
+    font-style: italic;
+    background-blend-mode:luminosity;
+    padding-left:10px;
+    box-sizing: border-box;
+    box-shadow: 20px;
+    margin-top:16px;
+    background-color: rgb(226, 223, 223);
+    border-top: 2x solid rgb(117, 116, 117);
+ border-bottom: 2px solid rgb(107, 104, 104);
+ text-decoration: underline;
+ font-size: 20px;
+ font-family:sans-serif;
+ animation-fill-mode: forwards;
+ background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqysMjkcDlz6uGlfZM4CGsovXQhzP26tasfQ&usqp=CAU');
+}
+header{
+   margin-top:16px ;
+margin-bottom:25px ;
+}
+h1{
+    font-size: 70px;
+    text-decoration: none;
+    text-size-adjust:initial;
+    font-style:italic;
+    font-family:'Courier New', Courier, monospace;
+    margin-bottom: 30px;
+}
+header a{
+    color:rgb(224, 224, 224);
+    margin-right: 15px;
+    text-decoration: underline;
+    font-style:arial;
+    font-variant: unset;
+    text-decoration-color: rgb(27, 25, 25);
+    font-size:20px;
+}
+img{
+    
+    border-top-left-radius: 5px solid ;
+    width: 10px;
+    height: 10px;
+}
+.portrait{
+    width:800px;
+    height:600px;
+    object-fit:cover ;
+    
+}
+.help{
+    border-radius: 5px;
+    width:700px;
+    height:450px;
+    object-fit:cover
+}
+body{
+    background-color: rgb(173, 223, 223);
+    fill: rgb(8, 0, 7);
+}
+input{
+    border: 2px solid rgb(11, 13, 14);
+    padding : 15px 10px;
+    color: black;
+    background: lightgrey;
+    font-size: 15px;
+    border-radius: 8px;
+    width:80%;
+    margin:2px ;
+    box-sizing:border-box;
+
+}
+button{
+    color: black;
+    background: rgb(233, 233, 233);
+    padding:15px 10px;
+    border:2px solid rgb(0, 0, 0);
+    font-size: 15px;
+    border-radius: 8px;
+    box-sizing:border-box;
+
+}
