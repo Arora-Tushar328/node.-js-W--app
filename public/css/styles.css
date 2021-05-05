@@ -1,5 +1,5 @@
 h1{
-    background-color: rgb(41, 38, 38);
+    background-color: rgb(0, 0, 0);
     background-blend-mode: luminosity;
     background-image: url('https://images.unsplash.com/photo-1590552515252-3a5a1bce7bed?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8d2VhdGhlcnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80');
 }
@@ -30,8 +30,8 @@ footer{
     font-style: italic;
     background-blend-mode:luminosity;
     padding-left:10px;
-    box-sizing: border-box;
-    box-shadow: 20px;
+     box-sizing: border-box; 
+     box-shadow: 20px; 
     margin-top:16px;
     background-color: rgb(226, 223, 223);
     border-top: 2x solid rgb(117, 116, 117);
@@ -96,6 +96,10 @@ input{
     margin:2px ;
     box-sizing:border-box;
 
+}
+.weather{
+    width:600px;
+    height:300px
 }
 button{
     color: black;
