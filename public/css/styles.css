@@ -4,8 +4,10 @@ h1{
     background-image: url('https://images.unsplash.com/photo-1590552515252-3a5a1bce7bed?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8d2VhdGhlcnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80');
 }
 body{
- color:rgb(255, 255, 255);
+ color:rgb(192, 192, 192);
  max-width:1120;
+ font-style: italic;
+ font-size: 19px;
  border-radius: 100px;
  width:50%;
  margin: 100px;
@@ -82,7 +84,7 @@ img{
     object-fit:cover
 }
 body{
-    background-color: rgb(173, 223, 223);
+    background-color: rgb(173, 173, 173);
     fill: rgb(8, 0, 7);
 }
 input{
