@@ -1,10 +1,11 @@
 h1{
-    background-color: rgb(0, 0, 0);
-    background-blend-mode: luminosity;
-    background-image: url('https://images.unsplash.com/photo-1590552515252-3a5a1bce7bed?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8d2VhdGhlcnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80');
+   color:rgb(224, 215, 215);
+    
+    /* background-color: rgb(184, 179, 179); */
+    /* background-image: url('https://images.unsplash.com/photo-1590552515252-3a5a1bce7bed?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8d2VhdGhlcnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80'); */
 }
 body{
- color:rgb(192, 192, 192);
+ color:rgb(206, 197, 197);
  max-width:1120;
  font-style: italic;
  font-size: 19px;
@@ -21,28 +22,25 @@ body{
  margin:100px;
  background:#222;
  font-family:sans-serif;
-
- background-image:url('https://images.unsplash.com/photo-1590552515252-3a5a1bce7bed?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8d2VhdGhlcnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80')
+background-image: Url('https://wallpaperaccess.com/full/1540036.jpg');
+ /* background-image:url('https://images.unsplash.com/photo-1590552515252-3a5a1bce7bed?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8d2VhdGhlcnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80')  */
 }
 .main-content{
     flex-grow:1;
 }
 footer{
-    color: rgb(0, 0, 0);
-    font-style: italic;
-    background-blend-mode:luminosity;
+    color: rgb(216, 210, 210);
+    font-style:normal;
+    padding: 5px;
     padding-left:10px;
      box-sizing: border-box; 
-     box-shadow: 20px; 
-    margin-top:16px;
-    background-color: rgb(226, 223, 223);
+    margin-top:10px;
+    /* background-color: rgb(184, 179, 179); */
     border-top: 2x solid rgb(117, 116, 117);
- border-bottom: 2px solid rgb(107, 104, 104);
- text-decoration: underline;
  font-size: 20px;
  font-family:sans-serif;
  animation-fill-mode: forwards;
- background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqysMjkcDlz6uGlfZM4CGsovXQhzP26tasfQ&usqp=CAU');
+ /* background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqysMjkcDlz6uGlfZM4CGsovXQhzP26tasfQ&usqp=CAU'); */
 }
 header{
    margin-top:16px ;
@@ -59,10 +57,8 @@ h1{
 header a{
     color:rgb(224, 224, 224);
     margin-right: 15px;
-    text-decoration: underline;
     font-style:arial;
     font-variant: unset;
-    text-decoration-color: rgb(27, 25, 25);
     font-size:20px;
 }
 img{

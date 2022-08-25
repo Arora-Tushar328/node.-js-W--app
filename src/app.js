@@ -88,11 +88,11 @@ app.get('*',(req,res)=>{
 })
 })
 app.get('/help/*',(req,res)=>{
-  res.render('404',{
-      title: 'wrong data',
-      errorMessage: 'Article not found'
-  })
+    res.render('404',{
+        title:'404',
+        errorMessage:'Help Article Not Found !!'
     })
+})
 app.get('*',(req,res)=>{
    res.render('404', {
        title : '404 page',
